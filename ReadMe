@@ -18,7 +18,7 @@ sudo sysctl -p
 cp /etc/ipsec.conf /etc/ipsec.conf.bkup
 cp /etc/ipsec.secrets /etc/ipsec.secrets.bkup
 
-#see the ipsec.conf and ipsec.secrets file 
+#see the ipsec.conf and ipsec.secrets files
 
 
 #Add Static Routes (this is Optional depends on your setup maybe Mandatory !!!)
