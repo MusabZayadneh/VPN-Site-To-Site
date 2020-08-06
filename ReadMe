@@ -1,4 +1,4 @@
-these are all the steps needed to setup VPN (Peer to Peer) or Site-To-Site using Strong Swan Utility 
+these are all the steps needed to setup VPN (Peer to Peer) or Site-To-Site using Strong Swan Utility on Ubuntu 18
 
 #Installing Strong Swan 
 sudo apt install strongswan
