@@ -3,7 +3,7 @@ these are all the steps needed to setup VPN (Peer to Peer) or Site-To-Site using
 #Installing Strong Swan 
 sudo apt install strongswan
 
-#Editing /etc/sysctl.conf and change the below :
+#Editing /etc/sysctl.conf and change like the below :
 --------------------------------------------
 net.ipv4.ip_forward = 1
 net.ipv6.conf.all.forwarding = 1
@@ -22,7 +22,7 @@ cp /etc/ipsec.secrets /etc/ipsec.secrets.bkup
 
 
 #Add Static Routes (this is Optional depends on your setup maybe Mandatory !!!)
-[from Inside Server A] sudo route add -net <Server B Network> gw <Server A Gateway>
+[from Inside Server A] sudo route add -net <Server B Network> gw <Server A Gateway public or private>
 
 #Finally, restart ipsec strongswan to update the new configurations.
 sudo ipsec restart
